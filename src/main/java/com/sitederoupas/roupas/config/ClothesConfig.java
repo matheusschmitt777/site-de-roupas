@@ -18,7 +18,7 @@ public class ClothesConfig implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		Clothes c1 = new Clothes(null, "Camisa", "Oversized", 60.99, "");
-		Clothes c2 = new Clothes(null, "Calça", "Cargo", 100.99, "");
+		Clothes c2 = new Clothes(null, "Calça", "Cargo", 3459.90, "");
 		
 		clothesRepository.saveAll(Arrays.asList(c1,c2));
 		
